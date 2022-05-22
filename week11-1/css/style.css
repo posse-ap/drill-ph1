@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  inset: 0;
+}
+
+.container.openModal > .modal {
+  display: block;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.modal:before {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  inset: 0;
+}
+
+.modal_content {
+  position: absolute;
+  min-width: 500px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
