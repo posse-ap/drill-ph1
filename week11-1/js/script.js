@@ -1,6 +1,6 @@
-const container = $('.container');
-const button = $('.js-openModal')
+const $container = $('.container');
+const $button = $('.js-openModal')
 
-button.click(() => {
-  container.addClass('openModal')
+$button.click(() => {
+
 })
