@@ -12,6 +12,8 @@ left: 0;
 
 CSSに**1行だけ**追記して、以下のサンプルと同じ位置に配置されるようにしてください
 
+![week1-2](https://user-images.githubusercontent.com/47471778/169678128-bb97ba47-dc93-4972-9782-489a4241a9b6.png)
+
 ### 修正箇所
 
 `css/style.css`
