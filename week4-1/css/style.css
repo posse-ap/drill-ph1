@@ -1,0 +1,114 @@
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo{
+  font-size: 0;
+}
+
+.headerInner{
+  max-width: 650px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainInner{
+  max-width: 650px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+footer{
+  margin-top: auto;
+  background: #eee;
+}
+
+.footerInner{
+  text-align: center;
+  padding: 30px;
+}
+
+.keyVisual{
+  text-align: center;
+}
+
+.priceWrapper table,
+.priceWrapper th,
+.priceWrapper td{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.priceWrapper th,
+.priceWrapper td{
+  padding: 7px;
+}
+
+.priceWrapper table{
+  width: 100%;
+}
+
+.priceWrapper th{
+  width: 150px;
+  background: #eee;
+}
+
+h2{
+  background-image: url("../img/niconico_bg_blue.png");
+  line-height: 50px;
+  padding: 0 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.aboutWrapper img{
+  float:left;
+  margin-right: 10px;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* contact */
+.contactTitle {
+  text-align: center;
+}
+
+.contactForm {
+  margin-top: 40px;
+}
+
+.contactTable {
+  width: 100%;
+}
+
+.contactTable input[type="text"],
+.contactTable input[type="email"],
+.contactTable textarea {
+  width: 100%;
+}
+
+.contactFormFooter {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contactFormButton {
+  width: 200px;
+  padding: 12px;
+  border-radius: 4px;
+  background-color: orange;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
