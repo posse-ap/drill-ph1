@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 7fr 3fr;
+}
+
+.main {
+  background-color: pink;
+  padding: 10px;
+}
+
+.aside {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
