@@ -12,7 +12,7 @@ right: 0;
 
 CSSに**1行だけ**追記して、以下のサンプルと同じ位置に配置されるようにしてください
 
-![week1-2](https://user-images.githubusercontent.com/47471778/169678128-bb97ba47-dc93-4972-9782-489a4241a9b6.png)
+![スクリーンショット 2022-06-12 20 38 27](https://user-images.githubusercontent.com/47471778/173231413-3e24e13d-a418-4b72-904a-7c1fed999cf3.png)
 
 ### 修正箇所
 
