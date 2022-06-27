@@ -1,4 +1,4 @@
-# 7週目ミニドリル 1問目
+# 8週目ミニドリル 1問目
 
 ## 問題
 現在合計を表示ボタンを押してconsoleを確認すると`Uncaught TypeError: scores.reduce is not a function`と表示されます。
