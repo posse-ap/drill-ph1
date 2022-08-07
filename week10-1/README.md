@@ -3,13 +3,14 @@
 ## 問題
 CSSで左はpink右はlightblueとしているはずなのに適応されていません
 
-![スクリーンショット 2022-06-12 19 54 21](https://user-images.githubusercontent.com/47471778/173230132-6da3dc08-4f2f-4dfe-a117-41a1ae6eee80.png)
+![スクリーンショット 2022-08-08 4 40 30](https://user-images.githubusercontent.com/79675344/183308520-a115b784-e0ed-47e2-86fd-c9002f5681f5.png)
 
-css/style.cssの
+css/style.cssを修正して、サンプルと同じ色にしなさい
 
 ### サンプル画像
 
-![スクリーンショット 2022-06-12 19 53 57](https://user-images.githubusercontent.com/47471778/173230128-b9a609aa-29c6-4ea1-be2d-57a37059f6ce.png)
+![スクリーンショット 2022-08-08 4 40 43](https://user-images.githubusercontent.com/79675344/183308530-ba30b1c3-02c9-4509-a0a5-57dde189c86c.png)
+
 
 ### 修正箇所
 
