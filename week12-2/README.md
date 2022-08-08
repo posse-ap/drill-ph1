@@ -4,6 +4,8 @@
 
 JavaScriptを修正して、棒グラフが正しく表示されるように修正してください。
 
+![localhost_63342_drill-ph1_week12-2_index html__ijt=vhqhql8un03n69tfjaoeqmsjem _ij_reload=RELOAD_ON_SAVE](https://user-images.githubusercontent.com/79675344/183498714-35bc7dc9-fddd-4815-b31c-aa46ad0f5b1b.png)
+
 
 ### 修正箇所
 `js/script.js`
