@@ -14,4 +14,5 @@ L10に1行追記する
 - ばつボタンを押すとモーダルが閉じる
 
 ## サンプル
-![week11-1](https://user-images.githubusercontent.com/79675344/169684833-4efd59b3-ade0-4631-a83d-65b0ec999686.png)![](../../../Downloads/localhost_63342_drill-ph1_week11-2_index.html__ijt=inkmn8vmg1d6i94metiljp76ad&_ij_reload=RELOAD_ON_SAVE.png)
+
+![localhost_63342_drill-ph1_week11-2_index html__ijt=inkmn8vmg1d6i94metiljp76ad _ij_reload=RELOAD_ON_SAVE](https://user-images.githubusercontent.com/79675344/183485074-607140d7-9a64-4599-91c0-1b86eee10dae.png)
