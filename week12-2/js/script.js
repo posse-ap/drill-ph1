@@ -27,12 +27,12 @@ const months = (config) => {
 
   return values;
 }
-const labels = months({count: 7});
+const labels = months({count: 10});
 const data = {
   labels: labels,
   datasets: [{
     label: 'My First Dataset',
-    data: [65, 59, 80, 81, 56, 55, 40],
+    data: [65, 59, 80, 81, 56, 55],
     backgroundColor: [
       'rgba(255, 99, 132, 0.2)',
       'rgba(255, 159, 64, 0.2)',
@@ -55,7 +55,7 @@ const data = {
   }]
 };
 const config = {
-  type: 'line',
+  type: 'bar',
   data: data,
   options: {
     scales: {
