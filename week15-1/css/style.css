@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.box-wrapper1 {
+  display: grid;
+  gap: 20px;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.box-item {
+  background-color: aqua;
+  list-style: none;
+}
+
+.box2 {
+  background-color: aqua;
+  height: 400px;
+}
+
+.box-wrapper2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  height: 520px;
+}
+
+.box3 {
+  background-color: aqua;
+}
+
+@media{
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
