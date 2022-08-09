@@ -17,6 +17,10 @@
   padding: 10px;
 }
 
+aside.aside {
+  background-color: antiquewhite;
+}
+
 .aside {
   width: 30%;
   background-color: lightblue;
