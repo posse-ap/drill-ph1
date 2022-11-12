@@ -1,28 +1,12 @@
 "use strict";
 
-const subjectElements = document.querySelectorAll('.list_item_score')
-const totalButton = document.querySelector('.total_button')
-const totalElement = document.querySelector('.total')
+const indexes = [1,2,3,4,5,6,7,8,9,10];
 
-const scores = {
-  'science': 60,
-  'japanese': 30,
-  'math': 40,
-  'society': 50,
-  'english': 40,
+for (var i = indexes.length - 1; i > 0; i--) {
+  var r = Math.floor(Math.random() * (i + 1));
+  var tmp = indexes[i];
+  indexes[i] = indexes[i];
+  indexes[r] = tmp;
 }
 
-subjectElements.forEach(subjectElement => {
-  const subject = subjectElement.dataset.subject
-  subjectElement.innerHTML = scores[subject]
-})
-
-const sumScores = (scores) => {
-  return scores.reduce((sum, currentScore) => sum + currentScore)
-}
-
-totalButton.addEventListener('click', () => {
-  totalElement.innerHTML = sumScores(scores)
-})
-
-
+console.log(indexes)
