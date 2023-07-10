@@ -1,9 +1,14 @@
 @charset "utf-8";
 
-.pseudo {
-  font-size: 50px;
+.pseudo-element {
+  font-size: 40px;
 }
 
-.pseudo::after {
-  /* ↓ ここに追記 ↓ */
+/* ↓ ここに追記 ↓ */
+.pseudo-element::after {
+  content: "";
+  display: block;
+  width: 360px;
+  height: 5px;
+  background-color: red;
 }

@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.pseudo-class {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* ↓ ここに追記 ↓ */
+.pseudo-class:hover {
+  color: blue;
+}
