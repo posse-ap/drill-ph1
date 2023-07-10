@@ -5,10 +5,3 @@
 }
 
 /* ↓ ここに追記 ↓ */
-.pseudo-element::after {
-  content: "";
-  display: block;
-  width: 360px;
-  height: 5px;
-  background-color: red;
-}
