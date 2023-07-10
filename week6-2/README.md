@@ -1,14 +1,18 @@
-# 6週目ミニドリル 2問目
+# 9週目ミニドリル 2問目
 
 ## 問題
-現在consoleを確認すると`Uncaught TypeError: scoreElements.map is not a function`と表示されます。
-JavaScriptの１箇所のみ修正して、スコアのトータルを合計の下部に表示してください
+PC表示で1カラムの縦並びレイアウトになっています。
+PC表示で２カラムレイアウト、SP表示で縦並びにしたいです。
+
+サンプルのように、768pxまでは１カラム、それより大きいサイズでは２カラムレイアウトになるように修正してください。
+
+### サンプル画像
+![名称未設定](https://user-images.githubusercontent.com/47471778/173231039-3d3293ba-9ae1-4293-a70d-55e73e46ec83.gif)
+
 
 ### 修正箇所
 
-`js/script.js:L6`
+`style.css:L25`
 
 ### 終了条件
-以下スクショのように合計数値が表示されていること
-
-![localhost_63342_drill-ph1_week6-2_index html__ijt=ducmsfvqhn0vb2t3bhpc2luo0e _ij_reload=RELOAD_ON_SAVE](https://user-images.githubusercontent.com/79675344/172042658-b49273f1-f702-49fb-8fb2-e143fac32464.png)
+768px以下で1カラム、それより大きい時は２カラムレイアウトになっている
