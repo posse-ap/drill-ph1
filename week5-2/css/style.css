@@ -6,3 +6,6 @@
 }
 
 /* ↓ ここに追記 ↓ */
+.pseudo-class:hover {
+  cokor: red;
+}
