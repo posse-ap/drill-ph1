@@ -1,11 +1,11 @@
 const weatherActivities = function(weather, temp) {
-  if () {
+  // if () {
     
-  } else if () {
+  // } else if () {
     
-  } else {
+  // } else {
     
-  }
+  // }
 }
 
 weatherActivities("晴れ", 27); // "ビーチで泳ぎましょう！"を出力
