@@ -1,6 +1,7 @@
-const button = document.getElementById('colorButton');
+// idを取得しましょう
 
-button.addEventListener('click', function() {
+// 取得した要素に addEventListener('click', function() {}) で処理を追記しましょう
+.addEventListener('click', function() {
   if () {
     
   } else {
