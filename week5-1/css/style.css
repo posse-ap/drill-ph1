@@ -5,3 +5,6 @@
 }
 
 /* ↓ ここに追記 ↓ */
+.pseudo-element::after {
+  underline: red;
+}
