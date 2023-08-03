@@ -1,18 +1,14 @@
-# 11週目ミニドリル 2問目
+# 6週目ミニドリル 2問目
 
 ## 問題
-
-JavaScriptに**1行だけ**追記して、サンプルと同じようにモーダルを出現するようにしてください。
-ばつボタンを押したらモーダルが閉じるようにしてください
+現在consoleを確認すると`Uncaught TypeError: scoreElements.map is not a function`と表示されます。
+JavaScriptの１箇所のみ修正して、スコアのトータルを合計の下部に表示してください
 
 ### 修正箇所
-`js/script.js`
-L10に1行追記する
+
+`js/script.js:L6`
 
 ### 終了条件
-- サンプル画像と同じように、モーダルが出現する
-- ばつボタンを押すとモーダルが閉じる
+以下スクショのように合計数値が表示されていること
 
-## サンプル
-
-![localhost_63342_drill-ph1_week11-2_index html__ijt=inkmn8vmg1d6i94metiljp76ad _ij_reload=RELOAD_ON_SAVE](https://user-images.githubusercontent.com/79675344/183485074-607140d7-9a64-4599-91c0-1b86eee10dae.png)
+![localhost_63342_drill-ph1_week6-2_index html__ijt=ducmsfvqhn0vb2t3bhpc2luo0e _ij_reload=RELOAD_ON_SAVE](https://user-images.githubusercontent.com/79675344/172042658-b49273f1-f702-49fb-8fb2-e143fac32464.png)

@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-}
+@charset "utf-8";
 
 .container {
-  position: relative;
-  min-height: 100vh;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.chart_box {
-  width: 400px;
-  height: 400px;
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.main {
+  width: 70%;
+  background-color: pink;
+  padding: 10px;
+}
+
+.aside {
+  width: 30%;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+aside {
+  background-color: antiquewhite;
 }
