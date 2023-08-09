@@ -1,16 +1,14 @@
-# 12週目ミニドリル 1問目
+# 7週目ミニドリル 1問目
 
 ## 問題
-
-JavaScriptに**1行だけ**修正して、サンプルと同じように棒グラフにしてください
+現在合計を表示ボタンを押してconsoleを確認すると`Uncaught TypeError: scores.reduce is not a function`と表示されます。
+JavaScriptの１箇所のみ修正して、スコアのトータルを合計の下部に表示してください
 
 ### 修正箇所
-`js/script.js`
-L57 - L67 のどこか1行を修正する
+
+`js/script.js:L25`
 
 ### 終了条件
-- サンプル画像と同じように、グラフが出現する
+以下のスクショのように合計が表示される
 
-## サンプル
-
-![localhost_63342_drill-ph1_week12-1_index html__ijt=dm9u1bapsu1f4g4u5r8k1uudgi _ij_reload=RELOAD_ON_SAVE](https://user-images.githubusercontent.com/79675344/183488284-0f4de51c-048e-47c2-bce7-990c0bf020bb.png)
+<img width="240" alt="スクリーンショット 2022-11-12 16 45 39" src="https://user-images.githubusercontent.com/74942852/201463395-4c852c1b-05d9-4d35-b086-13af0a439486.png">

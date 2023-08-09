@@ -1,11 +1,10 @@
-const $container = $('.container');
-const $button = $('.js-openModal');
-const $closeButton = $('.js-closeModal');
+"use strict";
 
-$button.click((e) => {
-  $container.addClass('openModal');
-})
+const scoreElements = document.querySelectorAll('.list_item_score')
+const totalElement = document.querySelector('.total')
 
-$closeButton.click(() => {
+const scores = scoreElements.map(element => Number(element.innerHTML))
 
-})
+const total = scores.reduce((sum,currentValue) => sum + currentValue)
+
+totalElement.innerHTML = String(total)

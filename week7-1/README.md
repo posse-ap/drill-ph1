@@ -1,14 +1,20 @@
 # 7週目ミニドリル 1問目
 
 ## 問題
-現在合計を表示ボタンを押してconsoleを確認すると`Uncaught TypeError: scores.reduce is not a function`と表示されます。
-JavaScriptの１箇所のみ修正して、スコアのトータルを合計の下部に表示してください
+
+cssを修正して、サンプル画像のように768px以上は横並び767px以下は縦並びになるようにしなさい
 
 ### 修正箇所
-
-`js/script.js:L25`
+`css/style.css`
+L49 を修正
 
 ### 終了条件
-以下のスクショのように合計が表示される
+- サンプル画像と同じように、レスポンシブ表示ができる
 
-<img width="240" alt="スクリーンショット 2022-11-12 16 45 39" src="https://user-images.githubusercontent.com/74942852/201463395-4c852c1b-05d9-4d35-b086-13af0a439486.png">
+## サンプル
+
+#### 768px以上
+<img src="https://user-images.githubusercontent.com/79675344/183528549-8d21b11f-910b-418f-ad48-ce8d71efb1c8.png" width="50%" />
+
+#### 767px以下
+<img src="https://user-images.githubusercontent.com/79675344/183528544-941032f6-bb1e-4392-a0e8-52d25daf526f.png" width="50%" />

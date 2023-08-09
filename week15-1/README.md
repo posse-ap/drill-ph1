@@ -1,20 +1,17 @@
-# 15週目ミニドリル 1問目
+# 14週目ミニドリル 1問目
 
 ## 問題
 
-cssを修正して、サンプル画像のように768px以上は横並び767px以下は縦並びになるようにしなさい
+JavaScriptに**1行だけ**修正して、サンプル画像と同じようにコンソールを出力しなさい
 
 ### 修正箇所
-`css/style.css`
-L49 を修正
+`js/script.js`
+L2 を修正する
 
 ### 終了条件
-- サンプル画像と同じように、レスポンシブ表示ができる
+- サンプル画像と同じように、コンソールが出力されている
 
 ## サンプル
 
-#### 768px以上
-<img src="https://user-images.githubusercontent.com/79675344/183528549-8d21b11f-910b-418f-ad48-ce8d71efb1c8.png" width="50%" />
 
-#### 767px以下
-<img src="https://user-images.githubusercontent.com/79675344/183528544-941032f6-bb1e-4392-a0e8-52d25daf526f.png" width="50%" />
+![スクリーンショット 2022-08-09 6 45 55](https://user-images.githubusercontent.com/79675344/183520264-0c3d06e5-a3e8-4b52-863a-af7b5e31c1f6.png)
