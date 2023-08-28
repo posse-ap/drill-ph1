@@ -1,28 +1,22 @@
 "use strict";
 
-const subjectElements = document.querySelectorAll('.list_item_score')
-const totalButton = document.querySelector('.total_button')
-const totalElement = document.querySelector('.total')
-
-const scores = {
-  'science': 60,
-  'japanese': 30,
-  'math': 40,
-  'society': 50,
-  'english': 40,
+const slideOptions = {
+  type: 'loop',
+  gap: gap, // 1. 40px に設定
+  width: '1096px',
+  perPage: 3,
+  padding: {
+    // 2. 左右に padding 28px を追加
+  },
+  pagination: false,
+  breakpoints: {
+    768: {
+      pagination: true,
+      perPage: 1,
+    }
+  }
 }
 
-subjectElements.forEach(subjectElement => {
-  const subject = subjectElement.dataset.subject
-  subjectElement.innerHTML = scores[subject]
-})
-
-const sumScores = (scores) => {
-  return scores.reduce((sum, currentScore) => sum + currentScore)
-}
-
-totalButton.addEventListener('click', () => {
-  totalElement.innerHTML = sumScores(scores)
-})
-
-
+document.addEventListener('DOMContentLoaded', function () {
+  // 3. Splide を初期化し、スライドを表示
+});
