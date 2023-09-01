@@ -12,5 +12,4 @@ Tailwind のクラスをまだ追記していないため、見た目が整っ�
 ### 終了条件
 以下の画像と近い見た目になっている
 
-<img width="890" alt="image" src="https://github.com/posse-ap/drill-ph1/assets/86785032/f5b4e92e-70d5-494e-aeba-3e7ff0813d77">
-
+<img width="1426" alt="image" src="https://github.com/posse-ap/drill-ph1/assets/86785032/e337d8f7-fec4-43ad-b657-fbfe7708027f">
