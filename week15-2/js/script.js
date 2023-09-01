@@ -1,11 +1,20 @@
 "use strict";
 
-const fruits = [
-  'りんご',
-  'バナナ',
-  'みかん',
-]
+document.getElementById("all").addEventListener("click", function() {
+    displayProducts("product");
+});
 
-for(let i=0; i<fruits.length; i++) {
-  console.log(`${i+1}.${fruits[0]}`)
+document.getElementById("electronics").addEventListener("click", function() {
+    displayProducts("product-electronics");
+});
+
+document.getElementById("clothing").addEventListener("click", function() {
+    displayProducts("product-clothing");
+});
+
+function displayProducts(category) {
+  const products = document.querySelectorAll(".product");
+  products.forEach(product => {
+    // element.style.display プロパティを用いて、フィルタリングの処理を書いてください
+  });
 }

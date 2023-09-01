@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>ph1 week11 1問目</title>
+  <title>Week15 2問目</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+<body class="bg-gray-100 p-8">
 
-<body>
-  <h1>ph1 Week11 1問目</h1>
-  <script src="./js/script.js"></script>
+<div class="filter-container max-w-3xl mx-auto">
+  <div class="filters mb-4">
+    <button id="all" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded mr-2">All</button>
+    <button id="electronics" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded mr-2">Electronics</button>
+    <button id="clothing" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded">Clothing</button>
+  </div>
+  <div class="product-list grid grid-cols-2 gap-4">
+    <div id="product-electronics" class="product p-4 border rounded shadow">Laptop</div>
+    <div id="product-clothing" class="product p-4 border rounded shadow">T-Shirt</div>
+    <div id="product-electronics" class="product p-4 border rounded shadow">Smartphone</div>
+    <div id="product-clothing" class="product p-4 border rounded shadow">Jeans</div>
+  </div>
+</div>
+
+<script src="./js/script.js"></script>
+
 </body>
-
 </html>
