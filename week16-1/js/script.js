@@ -1,17 +1,20 @@
-'use strict';
+"use strict";
 
-const button = document.getElementById('js-button');
-const loader = document.getElementById('js-loader');
-let isClicked = false;
+const titleInputElement = document.querySelector("#song-title");
+const addOrUpdateButtonElement = document.querySelector("#add-or-update-button");
+let currentEditingElement = null;
 
-button.addEventListener('click', () => {
+document.querySelectorAll('.edit-button').forEach((btn) => {
+  btn.addEventListener('click', function() {
+    const songElement = btn.parentElement.querySelector('span');
+    titleInputElement.value = songElement.textContent;
+    currentEditingElement = songElement;
+    addOrUpdateButtonElement.textContent = '更新';
+  });
+});
 
-  isClicked = true;
-
-  if(isClicked) {
-    loader.classList.add('is-show');
-    setTimeout(() => {
-      loader.classList.remove('is-show');
-    }, 3000);
+addOrUpdateButtonElement.addEventListener('click', function() {
+  if (currentEditingElement) {
+    // ここを追加しましょう
   }
 });
