@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="ja">
-
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ph1 week16 2問目</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
+    <title>Week16 2問目</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
 
-  <body>
-    <main class="container">
-      <div id="js-loader" class="loader">
-        <div class="loader-spinner">Loading...</div>
-      </div>
-      <button id="js-button" class="button">発火！</button>
-    </main>
-  </body>
-  <script src="./js/script.js"></script>
+<body class="bg-gray-100 p-10">
+  <input type="text" id="edit-title" placeholder="本のタイトル" class="border p-2 w-full mb-4">
+  <button id="update-btn" class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-4 rounded mb-4 hidden">更新</button>
+  <ul id="book-list">
+    <li class="flex justify-between items-center border p-2 my-2 bg-white">
+      <span>The Great Gatsby</span>
+      <button class="edit-btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded">編集</button>
+    </li>
+    <li class="flex justify-between items-center border p-2 my-2 bg-white">
+      <span>To Kill a Mockingbird</span>
+      <button class="edit-btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded">編集</button>
+    </li>
+    <li class="flex justify-between items-center border p-2 my-2 bg-white">
+      <span>1984</span>
+      <button class="edit-btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded">編集</button>
+    </li>
+  </ul>
+
+  ,<script src="./js/script.js"></script>
+</body>
 </html>

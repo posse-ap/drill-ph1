@@ -1,17 +1,18 @@
-'use strict';
+"use strict";
 
-const button = document.getElementById('js-button');
-const loader = document.getElementById('js-loader');
-let isClicked = false;
+const editInputElement = document.querySelector("#edit-title");
+const updateButton = document.querySelector("#update-btn");
+const bookListElement = document.querySelector("#book-list");
+let currentEditingElement = null;
 
-button.addEventListener('click', () => {
-  if (isClicked) {
-    return;
+bookListElement.addEventListener('click', function(e) {
+  if (e.target.classList.contains('edit-btn')) {
+    // ここを追加しましょう
   }
-  isClicked = true;
+});
 
-  loader.classList.add('is-show');
-  setTimeout(() => {
-    loader.classList.remove('is-show');
-  }, 3000);
+updateButton.addEventListener('click', function() {
+  if (currentEditingElement) {
+    // ここを追加しましょう
+  }
 });
