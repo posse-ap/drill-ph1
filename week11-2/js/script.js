@@ -1,10 +1,11 @@
-"use strict";
+const container = document.querySelector('.container');
+const button = document.querySelector('.js-openModal');
+const closeButton = document.querySelector('.js-closeModal');
 
-const scoreElements = document.querySelectorAll('.list_item_score')
-const totalElement = document.querySelector('.total')
+button.addEventListener('click', () => {
+  container.classList.add('openModal');
+});
 
-const scores = scoreElements.map(element => Number(element.innerHTML))
+closeButton.addEventListener('click', () => {
 
-const total = scores.reduce((sum,currentValue) => sum + currentValue)
-
-totalElement.innerHTML = String(total)
+});
