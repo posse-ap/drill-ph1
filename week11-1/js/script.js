@@ -1,11 +1,6 @@
-"use strict";
+const container = document.querySelector('.container');
+const button = document.querySelector('.js-openModal');
 
-const fruits = [
-  'りんご',
-  'バナナ',
-  'みかん',
-]
+button.addEventListener('click', () => {
 
-for(let i=0; i<fruits.length; i++) {
-  console.log(`${i+1}.${fruits[0]}`)
-}
+});
