@@ -1,7 +1,7 @@
 "use strict";
 
-const titleInputElement = document.querySelector("#song-title");
-const addOrUpdateButtonElement = document.querySelector("#add-or-update-button");
+const titleInputElement = document.getElementById("song-title");
+const addOrUpdateButtonElement = document.getElementById("add-or-update-button");
 let currentEditingElement = null;
 
 document.querySelectorAll('.edit-button').forEach((btn) => {
