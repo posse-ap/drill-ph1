@@ -15,6 +15,6 @@ document.getElementById("clothing").addEventListener("click", function() {
 function displayProducts(category) {
   const products = document.querySelectorAll(".product");
   products.forEach(product => {
-    // element.style.display プロパティを用いて、フィルタリングの処理を書いてください
+    // const products = document.querySelectorAll(".product");
   });
 }
