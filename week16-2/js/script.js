@@ -1,18 +1,16 @@
 "use strict";
 
-const editInputElement = document.getElementById("edit-title");
-const updateButton = document.getElementById("update-btn");
-const bookListElement = document.getElementById("book-list");
-
+const titleInputElement = document.getElementById("movie-title");
+const updateButtonElement = document.getElementById("update-button");
 let currentEditingElement = null;
 
-bookListElement.addEventListener('click', function(e) {
-  if (e.target.classList.contains('edit-btn')) {
+document.querySelectorAll('.edit-button').forEach((btn) => {
+  btn.addEventListener('click', function() {
     // ここを追加しましょう
-  }
+  });
 });
 
-updateButton.addEventListener('click', function() {
+updateButtonElement.addEventListener('click', function() {
   if (currentEditingElement) {
     // ここを追加しましょう
   }
