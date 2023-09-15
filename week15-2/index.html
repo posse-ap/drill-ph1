@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week15 2問目</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-8">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ph1 week14 2問目</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
+<div class="filter-container max-w-3xl mx-auto">
+  <div class="filters mb-4">
+    <button id="all" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded mr-2">All</button>
+    <button id="electronics" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded mr-2">Electronics</button>
+    <button id="clothing" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded">Clothing</button>
+  </div>
+  <div class="product-list grid grid-cols-2 gap-4">
+    <div class="product-electronics product p-4 border rounded shadow">Laptop</div>
+    <div class="product-clothing product p-4 border rounded shadow">T-Shirt</div>
+    <div class="product-electronics product p-4 border rounded shadow">Smartphone</div>
+    <div class="product-clothing product p-4 border rounded shadow">Jeans</div>
+  </div>
+</div>
 
-  <body>
-    <main class="container">
-      <div class="chart_box">
-        <canvas id="myChart" width="200" height="200"></canvas>
-      </div>
-    </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./js/script.js"></script>
-  </body>
+<script src="./js/script.js"></script>
 
+</body>
 </html>

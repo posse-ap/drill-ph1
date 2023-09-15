@@ -1,17 +1,17 @@
-'use strict';
+"use strict";
 
-const button = document.getElementById('js-button');
-const loader = document.getElementById('js-loader');
-let isClicked = false;
+const titleInputElement = document.getElementById("movie-title");
+const updateButtonElement = document.getElementById("update-button");
+let currentEditingElement = null;
 
-button.addEventListener('click', () => {
-  if (isClicked) {
-    return;
+document.querySelectorAll('.edit-button').forEach((btn) => {
+  btn.addEventListener('click', function() {
+    // ここを追加しましょう
+  });
+});
+
+updateButtonElement.addEventListener('click', function() {
+  if (currentEditingElement) {
+    // ここを追加しましょう
   }
-  isClicked = true;
-
-  loader.classList.add('is-show');
-  setTimeout(() => {
-    loader.classList.remove('is-show');
-  }, 3000);
 });

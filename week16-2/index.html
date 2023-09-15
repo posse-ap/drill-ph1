@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week16 2問目</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ph1 week16 2問目</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-
-  <body>
-    <main class="container">
-      <div id="js-loader" class="loader">
-        <div class="loader-spinner">Loading...</div>
-      </div>
-      <button id="js-button" class="button">発火！</button>
-    </main>
-  </body>
+<body class="bg-gray-200 p-10">
+  <div class="mb-4">
+    <input id="movie-title" class="border p-2" type="text" placeholder="映画のタイトル">
+    <button id="update-button" class="bg-green-500 text-white p-2 rounded ml-2">更新</button>
+  </div>
+  <ul id="movie-list">
+      <li><span>インセプション</span> <button class="bg-blue-500 text-white p-1 rounded edit-button">編集</button></li>
+      <li><span>スピリット</span> <button class="bg-blue-500 text-white p-1 rounded edit-button">編集</button></li>
+      <li><span>アバター</span> <button class="bg-blue-500 text-white p-1 rounded edit-button">編集</button></li>
+  </ul>
   <script src="./js/script.js"></script>
+</body>
 </html>
