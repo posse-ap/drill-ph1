@@ -1,8 +1,9 @@
 "use strict";
 
-const editInputElement = document.querySelector("#edit-title");
-const updateButton = document.querySelector("#update-btn");
-const bookListElement = document.querySelector("#book-list");
+const editInputElement = document.getElementById("edit-title");
+const updateButton = document.getElementById("update-btn");
+const bookListElement = document.getElementById("book-list");
+
 let currentEditingElement = null;
 
 bookListElement.addEventListener('click', function(e) {
